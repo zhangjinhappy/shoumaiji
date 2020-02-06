@@ -1,0 +1,9 @@
+<!--pages/components/TouSuccess/TouSuccess.wxml-->
+<view class='top'>
+    <image class="imgTop" src="/images/My/success.png"></image>
+    <text class='word'>投放成功！</text>
+</view>
+<button class="su-btn"> 继续投放</button>
+<button class="su-btn"> 设备补货</button>
+<button class="su-btn tow" bindtap='successd'> 返回首页</button>
+

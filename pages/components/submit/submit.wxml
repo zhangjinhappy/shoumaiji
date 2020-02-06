@@ -1,0 +1,6 @@
+<!--pages/components/submit/submit.wxml-->
+<view class='top'>
+    <image class="imgTop" src="/images/My/success.png"></image>
+    <text class='word'>提交成功</text>
+</view>
+<button class="su-btn"> 返回首页</button>

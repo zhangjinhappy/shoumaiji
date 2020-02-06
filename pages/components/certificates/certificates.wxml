@@ -1,0 +1,32 @@
+<!--pages/components/certificates/certificates.wxml-->
+<view class='bg'>
+  <view class='list'>
+      <text class='word'>姓名</text>
+      <input class="ml20" bindinput='name' class='inputOne' placeholder-style="color:#A9AED9;" placeholder="请输入姓名"></input>
+  </view>
+  <view class='list'>
+      <text class='word'>联系方式</text>
+      <input class="ml20" bindinput='arr' class='inputOne' placeholder-style="color:#A9AED9;" placeholder="请输入联系地址" ></input>
+  </view>
+  <view class='list'>
+      <text class='word'>身份证号码</text>
+      <input class="ml20" bindinput='person' class='inputOne' placeholder-style="color:#A9AED9;" placeholder="请输入身份证号码" ></input>
+  </view>
+  <view class='center centerPoint'>
+       <text style='color:#A9AED9;font-size:28rpx'>上传身份证正面照</text>
+       <view class='centerImage centerPoint' wx:if="{{front}}">
+            <image  class='imageTop' src='/images/My/plus.png'></image>
+            <text style='color:#999AA2;padding-top:12rpx;font-size:26rpx '>上传图片</text>
+       </view>
+       <image wx:if="{{!front}}" class='centerImage' src='/images/My/plus.png'></image>
+       <!-- 反面照的有图片时隐藏 -->
+       <text style='color:#A9AED9;font-size:28rpx' class='fan'>上传身份证反面照</text>
+       <view wx:if="{{reverse}}" class='centerImage centerPoint'>
+             <image  class='imageTop' src='/images/My/plus.png'></image>
+             <text style='color:#999AA2;padding-top:12rpx;font-size:26rpx '>上传图片</text>
+       </view>
+       <image wx:if="{{!reverse}}" class='centerImage' src='/images/My/plus.png'></image>
+  </view>
+
+  <button class="cu-btn c" bindtap='submit'> 确认提交</button>
+</view>

@@ -1,0 +1,73 @@
+/* pages/device/device.wxss */
+/* pages/device/device.wxss */
+.mapArea{
+  width: 100%;
+  height: 400rpx;
+  background-color: #f0f;
+}
+.list{
+  margin-top: 8rpx;
+ padding: 25rpx 0rpx;
+ padding-right: 20rpx;
+ padding-left: 25rpx;
+ background-color: #1B1D36;
+ height: 80rpx;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.ml20{
+  color:#fff;
+}
+.listTop{
+  color: #fff;
+  font-size: 28rpx;
+}
+.listImage{
+  width: 40rpx;
+  height: 40rpx;
+}
+.word{
+  font-size: 20rpx;
+}
+.cu-btn{
+  margin-top: 80rpx;
+  font-size: 28rpx;
+  width: 60%;
+  border-radius: 50rpx;
+  color:#fff;
+  background-color: #832283
+}
+.btnImage{
+  width:45rpx;
+  height: 45rpx;
+  color: #fff;
+  vertical-align: middle
+}
+.listTow{
+    margin-top: 8rpx;
+ padding: 25rpx 0rpx;
+ padding-right: 20rpx;
+ padding-left: 25rpx;
+ background-color: #1B1D36;
+ height: 80rpx;
+}
+.sheBei{
+  color: #fff;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.msgTop{
+  padding-top: 8rpx
+}
+.selectIMage{
+  padding-left: 30rpx;
+   width: 40rpx;
+  height: 40rpx;
+}
+.d{
+  color: #9C9DA3;
+}
+.bank{
+  padding-right:40rpx;
+}

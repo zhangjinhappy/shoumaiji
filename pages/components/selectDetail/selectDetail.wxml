@@ -1,0 +1,15 @@
+<!--pages/components/selectDetail/selectDetail.wxml-->
+<view wx:for="{{result}}" wx:for-item="item" wx:key="id">
+<view class="bg">
+    <view class="list">
+       <view class='headerCenter'>
+         <view class='centerTwo'>
+            <image class='centerImage' src='{{item.logo}}'></image>
+            <text class='word'>{{item.productName}}</text>
+         </view>
+         <text class="btn-top" bindtap='myImage' data-Img='{{item}}'>选择</text>
+       </view>
+    </view>
+</view>
+</view>
+

@@ -1,0 +1,25 @@
+<!--pages/replenishment/replenishment.wxml-->
+<view>
+
+<view class='headOne'>
+    <view class='headFour'>
+      <view class='headThree'>
+        <view class='headTow'>
+          <view class='headView' bindtap='scan' >
+              <image class='saoimg' src="/images/My/saoma.png" mode=''></image>
+              <text class='word'>点击扫码</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+     <popup id='popup' 
+      title='提示' 
+      content='你没认证，请进行认证！' 
+      btn_no='取消' 
+      btn_ok='认证'
+      bind:error="_error"  
+      bind:success="_success">
+     </popup>
+  </view>

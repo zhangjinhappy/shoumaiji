@@ -1,0 +1,29 @@
+/* pages/components/TouSuccess/TouSuccess.wxss */
+.su-btn{
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  width: 70%;
+  color: #fff;
+  background-color: #832283
+}
+.imgTop{
+  width: 160rpx;
+  height: 160rpx;
+}
+.word{
+  text-align: center;
+  padding-top: 10rpx;
+  padding-left:14rpx;
+  font-size: 28rpx;
+  color: #fff;
+}
+.top{
+  height: 700rpx;
+  width: 160rpx;
+ margin: 60rpx auto
+}
+.tow{
+  background-color:#111328 ;
+  border: 1px solid #832283;
+  color: #832283 
+}

@@ -1,0 +1,13 @@
+<!--pages/components/popedom/popedom.wxml-->
+<view class='headerTop'>
+     <picker bindchange="bindPickerChange" value="{{index}}" range="{{areaNameList}}">
+          <text>  {{areaNameList[index]}}</text>
+          <image class='selectIMage' src='/images/My/select.png'></image>
+      </picker>
+</view>
+<view wx:for="{{hotelList}}" wx:for-item="item" wx:key = 'id'>
+   <view class='list'>
+      <view>{{item.hotelName}}</view>
+      <view class='words'>{{item.location}}</view>
+   </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/components/succeed/succeed.wxml-->
+<view class='top'>
+    <image class="imgTop" src="/images/My/success.png"></image>
+    <text class='word'>审核成功</text>
+</view>
+<button class="su-btn" bindtap='successd'> 返回首页</button>

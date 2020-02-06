@@ -1,0 +1,30 @@
+<!--pages/components/replenishmentWarningDetail/replenishmentWarningDetail.wxml-->
+    <view class="list">
+        <view class="box">
+            <text class="fz28 corb">好多好多撒</text>
+        </view>
+        <view class="box">
+            <view class="fl mr15"><text class="fz28 corb">设备编号:</text></view>
+            <view class="fl"><text class="fz28 corb">122333</text></view>
+        </view>
+        <view class="box">
+            <view class="fl w">
+                <view class="fl mr15"><text class="fz28 corb">补货数量:</text></view>
+                <view class="fl"><text class="fz28 corb">23343343</text></view>
+            </view>
+        </view>
+    </view>
+
+     <view class="list">
+          <view class='headerTop'>
+            <image class='headerImage' src='/images/My/shangPu.png'></image>
+            <text class='word'>一号柜</text>
+          </view>
+          <view class='headerCenter'>
+            <view class='centerTwo'>
+                <image class='centerImage' src='/images/My/wushang.png'></image>
+                <text class='word'>走起你</text>
+            </view>
+            <text class="btn-top">待补货</text>
+          </view>
+      </view>

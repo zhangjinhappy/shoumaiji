@@ -1,0 +1,27 @@
+<!--pages/statistics/statistics.wxml-->
+<view class="censu pt30 pb30"> 
+	<view class="item mb20" bindtap='Myequipment'>
+		<view class="list cor fz46 fw">{{count.equipmentCount}}</view>
+		<view class="fz26 list">我的设备</view>
+	</view>
+	<view class="item">
+		<view class="lis lisfl fl" bindtap='Myreplenishment'>
+			<view class="cor fz46 fw">{{count.replenishmenttCount}}</view>
+			<view class="fz26">补货统计</view>
+		</view>
+		<view class="lis fr" bindtap='replenishmentWarning'>
+			<view class="cor fz46 fw">{{count.warnningCount}}</view>
+			<view class="fz26">补货预警</view>
+		</view>
+	</view>
+</view>
+<view class="censu pd30"> 
+	<view class="box fz30 ment colorOne">
+		<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+	</view>
+</view>
+<view class="censu pd30"> 
+	<view class="box fz30 ment">
+		<ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ecOne }}"></ec-canvas>
+	</view>
+</view>

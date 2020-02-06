@@ -1,0 +1,38 @@
+/* pages/components/equipment/equipment.wxss */
+.headerTop{
+  color: #fff;
+  background-color: #1B1D36;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  justify-content: space-around;
+  height: 80rpx;
+}
+.selectIMage{
+  margin-left: 5rpx;
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle
+}
+.list{
+    padding: 30rpx 26rpx;
+    background-color: #1B1D36;
+    margin: 12rpx  0rpx;
+}
+.box{
+    height: 60rpx;
+}
+.btn-top{
+  padding:18rpx 28rpx;
+  background-color: rgba(129, 33, 130, 1);
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: #fff;
+  line-height: 41rpx;
+}
+.sp{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

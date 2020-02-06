@@ -1,0 +1,30 @@
+<!--pages/components/equipment/equipment.wxml-->
+
+<view class='headerTop'>
+    <text>全部：{{count}}</text>
+     <picker bindchange="bindPickerChange" value="{{index}}" range="{{areaNameList}}">
+          <text>  {{areaNameList[index]}}</text>
+          <image class='selectIMage' src='/images/My/select.png'></image>
+      </picker>
+     <text style='color: #842283'>{{areaName}}：{{areaCount}}</text>
+</view>
+<view wx:for="{{areaEquipmentList}}" wx:for-item="item" wx:key="id">
+  <view class="list" bindtap='msgTo' data-id="{{item}}">
+      <view class="box">
+        <text class="fz28 corb">{{item.location}}</text>
+      </view>
+      <view class="box">
+          <view class="fl mr15"><text class="fz28 corb">设备编号:</text></view>
+          <view class="fl"><text class="fz28 corb">{{item. equipmentCode}}</text></view>
+      </view>
+      <view class="box sp">
+              <view class="fl w">
+                  <view class="fl mr15"><text class="fz28 corb">投放时间：</text></view>
+                  <view class="fl"><text class="fz28 corb">{{item.createDt}}</text></view>
+              </view>
+              <view>
+                  <text class="btn-top">导航</text>
+              </view>
+      </view>
+   </view>
+</view>

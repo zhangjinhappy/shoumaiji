@@ -1,0 +1,50 @@
+/* pages/components/replenishmentWarningDetail/replenishmentWarningDetail.wxss */
+.list{
+    padding: 30rpx 26rpx;
+    background-color: #1B1D36;
+    margin: 12rpx  0rpx;
+}
+.box{
+    height: 60rpx;
+}
+.headerImage{
+  height: 35rpx;
+  width: 35rpx;
+}
+.word{
+  padding-left: 18rpx;
+  color: #FFFFFF;
+  font-size: 26rpx;
+  font-family: '宋体'
+}
+.headerTop{
+  padding-bottom: 28rpx;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.headerCenter{
+  width: 100%;
+  padding-left: 10rpx;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+.centerImage{
+  height: 100rpx;
+  width: 100rpx;
+}
+.centerTwo{
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.btn-top{
+  width: 90rpx;
+  height: 45rpx;
+  color: rgba(129, 33, 130, 1);
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 45rpx;
+}

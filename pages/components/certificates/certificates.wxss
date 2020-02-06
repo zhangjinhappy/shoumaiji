@@ -1,0 +1,52 @@
+/* pages/components/certificates/certificates.wxss */
+.bg,Page{
+   background-color: #111328;
+}
+.bg{
+  margin-bottom: 40rpx;
+}
+.list{
+  padding: 10rpx 40rpx;
+  margin-top: 6rpx;
+  color: #fff;
+  background-color: #1B1D36;
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:82rpx;
+ 
+}
+.center{
+  height: 600rpx;
+  margin-top: 6rpx;
+  background-color: #1B1D36;
+  margin-bottom: 10rpx;
+}
+.inputOne{
+  font-size: 26rpx;
+  text-align:right;
+}
+.fan{
+  margin-top: 20rpx
+}
+.centerPoint{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.centerImage{
+  width: 60%;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  height: 200rpx;
+  background-color: #272940;
+}
+.imageTop{
+  width: 60rpx;
+  height: 60rpx;
+}
+.c{
+  line-height:3.1;
+}

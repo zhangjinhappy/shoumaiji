@@ -1,0 +1,83 @@
+/**index.wxss**/
+page{
+  background: url('https://hlxy.pluss.cn/resources/shj/images/login/login_bg.png')no-repeat;
+  background-color: black;
+  background-size: cover;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.loginTitle {
+
+  margin-top: 150rpx;
+  color: white;
+  font-size: 26rpx;
+  background: -webkit-linear-gradient(left, #DE3C8F, #812182);
+  width: 50%;
+  height: 60rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30rpx;
+  /* box-shadow: white; */
+}
+
+.loginView {
+
+  margin-top: 60rpx;
+  width: 70%;
+  height: 280rpx;
+  border-radius: 12rpx;
+  background-color: white;
+}
+
+.inputView {
+  display: flex; 
+  align-items: center;
+  width: 80%;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+}
+
+.inputLogo {
+  
+  width: 45rpx;
+  height: 38rpx;
+  margin-right: 20rpx;
+}
+
+.loginBtn {
+
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 26rpx;
+  background: -webkit-linear-gradient(left, #DE3C8F, #812182);
+  background-color: blue;
+  border-radius: 6rpx;
+
+  width: 40%;
+  height: 60rpx;
+  margin-top: -30rpx;
+}

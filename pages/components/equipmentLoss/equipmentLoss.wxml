@@ -1,0 +1,40 @@
+<!--pages/components/equipmentLoss/equipmentLoss.wxml-->
+<view class='list'>
+ <view class='listTop'>
+    设备资料
+ </view>
+ <view class='listTop'>
+    设备区域：{{result.areaName}}
+ </view>
+ <view class='listTop'>
+    投放地址：{{result.location}}
+ </view>
+ <view class='listTop'>
+    设备编号：{{result.equipmentCode}}
+ </view>
+</view>
+<view class='list'>
+  <view class='listTop'>
+    故障描述
+ </view>
+ <view>
+   <textarea class='listPadding' placeholder="请输入故障描述……" auto-focus />
+ </view>
+</view>
+<view class='list'>
+  <view class='listTop'>
+   上传图片证明
+  </view>
+  	<view>
+      <view class='imgArr'>
+          <view wx:for="{{imgArrs}}" class='img_item' wx:key="id">
+              <image src='{{item}}' mode='widthFix' bindtap='previewImage' data-item="{{item}}"  />
+          </view>
+          <view class='addImg' bindtap='chooseImage'>
+              <image  src='http://etc-app.oss-cn-beijing.aliyuncs.com/image_201905301537160389.png' mode='widthFix' />
+          </view>
+      </view>
+  </view>
+</view>
+
+<button class="cu-btn " bindtap='submit'> 上报</button>

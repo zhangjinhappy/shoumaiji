@@ -1,0 +1,50 @@
+
+<!--pages/device/device.wxml-->
+<view  class='mapArea'>
+   <map id="aroundMap"
+   style='width:100%;height:100%'
+   markers='{{markers}}'
+   scale='{{scale}}'
+   latitude='{{latitude}}'
+   longitude='{{longitude}}'
+    bindmarkertap="markertap"
+    bindregionchange="regionchange"
+   show-location
+   >
+   </map>
+</view>
+<view class='list'>
+  <view class='listTop'>
+    <text>{{array[index].areaName+array[index].hotelName}}</text>
+    <view>
+        <text class='word'>E{{array[index].lattitude}}</text>  <text class='word' style='margin-left:20rpx'>N{{array[index].longtitude}}</text>
+    </view>
+  </view>
+  <image wx:if="{{importInput}}" src='/images/My/location.png' class='listImage' bindtap='getLocation'></image>
+  <image wx:if="{{!importInput}}" src='/images/My/location1.png' class='listImage'></image>
+</view>
+
+<view wx:if="{{importInput}}">
+  <view class='list d'>
+    <!-- <input class="ml20" bindinput='phone' placeholder=""></input> -->
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class='name' range-key="hotelName">
+          <text class='bank'> {{array[index].hotelName}}</text>
+          <image  class='selectIMage' src='/images/My/select.png'></image>
+      </picker>
+  </view>
+  <view class='list'>
+    <input class="ml20" bindinput='homeCode' placeholder="请输入房间号" ></input>
+  </view>
+</view>
+<view wx:if="{{!importInput}}" class='sheBei'>
+   <text style='padding:10rpx 10rpx 20rpx 20rpx'>设备信息</text>
+   <view class='listTow'>
+     <view>设备编号： <text>123456</text></view>
+     <view class='msgTop'>设备编号： <text>123456</text></view>
+  </view>
+</view>
+   
+
+<button class="cu-btn " wx:if="{{importInput}}" bindtap='saoma' > <image class='btnImage' src='/images/My/saoma1.png'></image> 扫码</button>
+<button class="cu-btn " wx:if="{{!importInput}}" bindtap='touTo'>  投放</button>
+

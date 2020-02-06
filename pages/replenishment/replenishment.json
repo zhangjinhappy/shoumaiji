@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "popup": "../../component/popup/popup"
+  },
+  "navigationBarBackgroundColor": "#111328",
+  "navigationBarTitleText": "补货",
+  "navigationBarTextStyle": "white"
+}

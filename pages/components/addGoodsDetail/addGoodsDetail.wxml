@@ -1,0 +1,46 @@
+<!--pages/components/addGoodsDetail/addGoodsDetail.wxml-->
+<view class="bg">
+    <view class="list">
+        <view class="box">
+            <view class="fl">
+                <view class="fl mr15"><text class="fz28 corb">设备信息</text></view>
+            </view>
+            <view class="fr">
+                <text class="fz28 corb">补货时间：{{createDt}}</text>
+            </view>
+        </view>
+        
+        <view class="box">
+            <view class="fl mr15"><text class="fz28 corb">设备编号:</text></view>
+            <view class="fl"><text class="fz28 corb">{{equipmentCode}}</text></view>
+        </view>
+        <view class="box">
+            <text class="fz28 corb">{{location}}</text>
+        </view>
+    </view>
+
+   <view wx:for="{{replenishmentList}}" wx:for-item="item" wx:index="id">
+     <view class="list">
+          <view class='headerTop'>
+            <image class='headerImage' src='/images/My/shangPu.png'></image>
+            <text class='word'>{{item.seq}}号柜</text>
+          </view>
+          <view class='headerCenter'>
+            <view class='centerTwo'>
+                <image class='centerImage' src='{{item.logo}}'></image>
+                <text class='word'>{{item.productName}}</text>
+            </view>
+            <text class="btn-top">已补货</text>
+          </view>
+      </view>
+   </view>
+
+  <!-- //遍历数据该图片 -->
+   <view >
+     <view class='footerTu'>
+        <view class='imageOne' wx:for ="{{endPicurl}}" wx:for-item="item">
+           <image class='picImage' src='{{item}}'></image>
+        </view>
+      </view>
+   </view>
+  </view>

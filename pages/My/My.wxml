@@ -1,0 +1,29 @@
+<!-- pages/My/My.wxml -->
+<view>
+  <view class="headView text-center">
+    <view class="logo">
+      <image class="headImage" src="{{infoList.logo}}"></image>
+    </view>
+    <view class="name">
+      <text class='text-white'>{{infoList.employeeName}}</text>
+    </view>
+  </view>
+</view>
+<view class="cu-list menu bodyView">
+  <view class="content-item" bindtap='toAboutUs' data-id='1'>
+    <view class="itemImg"><image src="https://hlxy.pluss.cn/resources/shj/images/My/zhanghu.png" class="box"></image><text class="text-white itemText">资料认证</text></view>
+    <view class="bos"><image src="https://hlxy.pluss.cn/resources/shj/images/My/jiantou.png" class="box"></image></view>
+  </view>
+  <view class="content-item" bindtap='toAboutUs' data-id='2'>
+    <view class="itemImg"><image src="https://hlxy.pluss.cn/resources/shj/images/My/shebei.png" class="box"></image><text class="text-white itemText">我的设备</text></view>
+    <view class="bos"><image src="https://hlxy.pluss.cn/resources/shj/images/My/jiantou.png" class="box"></image></view>
+  </view>
+  <view class="content-item" bindtap='toAboutUs' data-id='3'>
+    <view class="itemImg"><image src="https://hlxy.pluss.cn/resources/shj/images/My/xiaqu.png" class="box"></image><text class="text-white itemText">我的辖区</text></view>
+
+    <view class="bos"><image src="https://hlxy.pluss.cn/resources/shj/images/My/jiantou.png" class="box"></image></view>
+  </view>
+</view>
+<view class="footer" bindtap='exit' >
+   <view class="son">退出登录</view>
+</view>

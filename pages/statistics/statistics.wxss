@@ -1,0 +1,62 @@
+/* pages/statistics/statistics.wxss */
+page{
+	background-color:#111328;
+}
+.content{
+	width: 100%;
+  font-size: 26rpx;
+	height: 100rpx;
+	background-color:#111328;
+	line-height: 100rpx;
+	text-align: center;
+}
+.name{
+	height: 70rpx;
+	font-size: 34rpx;
+	color: #FFFFFF;
+}
+.censu{
+	width: 100%;
+	background-color: #1B1D36;
+	margin-bottom: 12rpx;
+	position: relative;
+}
+.item{
+	width: 100%;
+	height: 100rpx;
+	text-align: center;
+}
+
+.item .list{
+	width: 100%;
+	height: 50%;
+	color: #FFFFFF;
+}
+.item .lis{
+	width: 49%;
+	height: 100%;
+	color: #fff;
+	font-size: 26rpx;
+}
+.item .lisfl{
+	border-right: 1px solid #2F325B;
+}
+.pd30{
+	padding-top : 20rpx;
+  padding-left: 10rpx;
+}
+.ment{
+	color: #fff;
+}
+ec-canvas{
+  width: 100%;
+	height: 280rpx;
+}
+.box {
+	width:100%;
+	height:380rpx;
+} 
+.colorOne{
+  color: #fff;
+  overflow-y: auto
+}

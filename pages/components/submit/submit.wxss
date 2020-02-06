@@ -1,0 +1,24 @@
+/* pages/components/submit/submit.wxss */
+.su-btn{
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  width: 70%;
+  color: #fff;
+  background-color: #832283
+}
+.imgTop{
+  width: 160rpx;
+  height: 160rpx;
+}
+.word{
+  width: 160rpx;
+  padding-top: 10rpx;
+  padding-left:24rpx;
+  font-size: 28rpx;
+  color: #fff;
+}
+.top{
+  height: 700rpx;
+  width: 160rpx;
+ margin: 60rpx auto
+}

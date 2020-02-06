@@ -1,0 +1,27 @@
+/* pages/components/addGoods/addGoods.wxss */
+/* pages/replenish/replenish.wxss */
+page{
+    background: #111328;
+}
+.header{
+    height: 84rpx;
+    line-height: 84rpx;
+    margin: 12rpx  0rpx;
+}
+.item{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28rpx;
+    font-family: '宋体';
+    background-color: #1B1D36;
+}
+.list{
+    padding: 30rpx 26rpx;
+    background-color: #1B1D36;
+    margin: 12rpx  0rpx;
+}
+.box{
+    height: 60rpx;
+}

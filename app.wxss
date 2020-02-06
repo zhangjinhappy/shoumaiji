@@ -1,0 +1,81 @@
+/**app.wxss**/
+Page {
+  background-color: #111328;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.fz26{
+  font-size: 26rpx;
+}
+.fz46{
+  font-size: 46rpx;
+}
+.fz30{
+  font-size: 30rpx;
+}
+.fz28{
+  font-size: 28rpx;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.mr15{
+  margin-right: 15rpx;
+}
+.w{
+  width: 50%;
+  height: 100%;
+}
+.corb{
+  color: #fff;
+}
+.cor{
+	color: #FF3658 !important;
+}pt45
+.fw{
+  font-weight: 500;
+}
+.mb20{
+  margin-bottom: 20rpx;
+}
+.pt30{
+  padding-top: 30rpx;
+}
+.pl30{
+  padding-left: 30rpx;
+}
+.pr30{
+  padding-right: 30rpx;
+}
+.pb30{
+  padding-bottom: 30rpx;
+}
+
+
+.scrollPage {
+  height: 100vh;
+}
+.cu-btn{
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  width: 70%;
+  color: #fff;
+  background-color: #832283
+}
+.shenglu{
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+width: 200rpx;
+display: inline-block
+}

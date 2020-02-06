@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="loginTitle">售卖机补货端</view>
+
+  <view class="loginView">
+
+    <view class="inputView">
+      <image class="inputLogo" src="https://hlxy.pluss.cn/resources/shj/images/login/login_username.png"></image>
+      <input class="ml20" bindinput='phone' placeholder="请输入登录账号" style="font-size: 26rpx"></input>
+    </view>
+
+    <view class="inputView">
+      <image class="inputLogo" src="https://hlxy.pluss.cn/resources/shj/images/login/login_password.png"></image>
+      <input type='password' class="ml20" bindinput='pwd' placeholder="请输入登录密码" style="font-size: 26rpx"></input>
+    </view>
+  </view>
+
+  <view class="loginBtn" bindtap="loginAction">登录</view>
+</view>

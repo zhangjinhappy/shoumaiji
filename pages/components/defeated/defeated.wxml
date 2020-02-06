@@ -1,0 +1,6 @@
+<!--pages/components/defeated/defeated.wxml-->
+<view class='top'>
+    <image class="imgTop" src="/images/My/shibai.png"></image>
+    <text class='word'>审核失败</text>
+</view>
+<button class="su-btn" bindtap='successd'> 返回首页</button>

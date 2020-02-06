@@ -1,0 +1,38 @@
+<!--pages/components/addGoods/addGoods.wxml-->
+<!-- pages/replenish/replenish.wxml -->
+<view class="bg">
+    <view class="header">
+        <view class="item fl">
+           <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+               <text decode='true'> {{array[index]}}&nbsp;&gt;</text>
+            </picker>
+        </view>
+        <view class="item fr">
+           <picker bindchange="shopPickerChange" value="{{index}}" range="{{shop}}" >
+              <text decode='true' class="shenglu">{{shop[one]}}&nbsp;&gt;</text>
+           </picker>
+        </view>
+    </view>
+    <view wx:for="{{list}}" wx:for-item="item" wx:key="id">
+      <view class="list" bindtap='addGoodsDetail' data-id='{{item}}'>
+        <view class="box">
+            <text class="fz28 corb">{{item.hotelName}}</text>
+        </view>
+        <view class="box">
+            <view class="fl mr15"><text class="fz28 corb">设备编号:</text></view>
+            <view class="fl"><text class="fz28 corb">{{item.equipmentCode}}</text></view>
+        </view>
+        <view class="box">
+            <view class="fl w">
+                <view class="fl mr15"><text class="fz28 corb">补货数量:</text></view>
+                <view class="fl"><text class="fz28 corb">{{item.replenishmentCode}}</text></view>
+            </view>
+            <view class="fr">
+                <text class="fz28 corb">{{item.createDt}}</text>
+            </view>
+        </view>
+    </view>
+    
+    </view>
+    
+</view>

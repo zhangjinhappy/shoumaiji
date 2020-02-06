@@ -1,0 +1,67 @@
+/* pages/components/equipmentLoss/equipmentLoss.wxss */
+.list{
+  padding: 20rpx;
+  margin-top: 10rpx;
+  color: #fff;
+  background-color: #1B1D36
+}
+.listTop{
+  padding: 20rpx;
+}
+.listPadding{
+  padding-left: 16rpx;
+}
+.cu-btn{
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  width: 70%;
+  color: #fff;
+  background-color: #832283
+}
+.pageImage{
+  margin-left: 12rpx;
+  font-size: 23rpx;
+  width: 180rpx;
+  height: 180rpx;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.imageTop{
+  width: 60rpx;
+  height: 60rpx;
+}
+.imageTwo{
+   width: 180rpx;
+   height: 180rpx;
+}
+.addImg {
+  width: 122rpx;
+	height: 122rpx; 
+}
+.imgArr image {
+  display: inline !important;
+  width: 100%;
+  height: 100%;
+}
+.imgArr view {
+  display: inline-block;
+  margin: 10rpx;
+}
+.img_item {
+    width: 122rpx;
+	height: 122rpx; 
+  border: 1rpx solid #e5e5e5;
+  position: relative;
+}
+.title {
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 32rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1rpx;
+	color: #333333;
+}

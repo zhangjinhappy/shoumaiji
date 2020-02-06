@@ -1,0 +1,58 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"uglifyFileName": false,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.1",
+	"appid": "wx0834a426e9775ef9",
+	"projectname": "mini",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "-----基础点进去的页面------",
+					"pathName": "pages/components/replanceDeil/replanceDeil",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "1.1 基础2-布局",
+					"pathName": "pages/basics/layout/layout",
+					"query": ""
+				}
+			]
+		}
+	}
+}

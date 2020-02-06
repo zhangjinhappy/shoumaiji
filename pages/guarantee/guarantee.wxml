@@ -1,0 +1,17 @@
+<!--pages/guarantee/guarantee.wxml-->
+<view>
+
+<view class='headOne'>
+    <view class='headFour'>
+      <view class='headThree'>
+        <view class='headTow'>
+          <view class='headView' bindtap='scan' >
+              <image class='saoimg' src="/images/My/saoma.png" mode=''></image>
+              <text class='word'>点击扫码</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  </view>
+

@@ -1,0 +1,26 @@
+/* pages/components/popedom/popedom.wxss */
+.headerTop{
+  color: #fff;
+  font-size: 28rpx;
+  background-color: #1B1D36;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80rpx;
+}
+.selectIMage{
+    margin-left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle
+}
+.list{
+  margin-top: 8rpx;
+  color: #fff;
+  padding: 20rpx;
+  background-color: #1B1D36;
+}
+.words{
+  font-size: 24rpx;
+  padding-top: 12rpx;
+}
